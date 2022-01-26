@@ -28,9 +28,11 @@ tejfol: 160 Ft
 # akkor az melyik boltban lesz a legolcsóbb, és mennyibe fog kerülni.
 # A megadott példára:
 '3. boltban 1080 Ft'
-# Ha egyik boltban sem található meg egy helyen az összes kívánt termék,
-# vagy egy megadott termék egyik boltban sem kapható, akkor ezt írja ki:
+# Ha nincs olyan bolt, ahol egy helyen megvehető lenne az összes kívánt termék,
+# akkor ezt írja ki:
 'Nincs olyan bolt, ahol minden termek kaphato!'
+# Az is ide tartozik, ha olyan termék neve lett megadva, amelyik egyik boltban
+# sem kapható.
 
 # A beolvasás, a legolcsóbb árak kiszámítása és a legolcsóbb bolt keresése
 # 3 külön függvényben legyen megoldva!
